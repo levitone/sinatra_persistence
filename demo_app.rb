@@ -1,0 +1,6 @@
+require 'sinatra'
+require 'sinatra/activerecord'
+require './config/environments'
+require_relative 'models/person'
+require_relative 'models/event'
+require_relative 'models/registration'
